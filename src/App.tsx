@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Navbar } from './components';
+import Brand from './components/brand/brand.component';
 import { Header } from './containers';
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
         <Navbar />
         <Header />
       </div>
+      <Brand />
     </div>
   );
 }
