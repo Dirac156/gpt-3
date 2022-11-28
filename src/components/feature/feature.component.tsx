@@ -1,9 +1,9 @@
 import { FunctionComponent } from "react";
-import { IFeaturePropos } from "../../interfaces";
+import { IFeature } from "../../interfaces";
 import "./feature.style.css";
 
-const Feature: FunctionComponent<IFeaturePropos> = 
-    ({title, text}: IFeaturePropos) => 
+const Feature: FunctionComponent<IFeature> = 
+    ({title, text}: IFeature) => 
 {
     return (
         <div className="gpt3__features-container__feature">

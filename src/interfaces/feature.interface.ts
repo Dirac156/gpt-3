@@ -1,4 +1,4 @@
-export interface IFeaturePropos {
+export interface IFeature {
     title: string;
     text?: string;
 }

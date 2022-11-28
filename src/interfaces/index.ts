@@ -1,6 +1,6 @@
-import { IFeaturePropos } from "./feature.interface";
+import { IFeature } from "./feature.interface";
 
 
 export type {
-    IFeaturePropos
+    IFeature
 }
