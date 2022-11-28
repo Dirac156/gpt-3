@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Navbar } from './components';
 import Brand from './components/brand/brand.component';
-import { Header } from './containers';
+import { Header, WhatGPT3 } from './containers';
 
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
         <Header />
       </div>
       <Brand />
+      <WhatGPT3 />
     </div>
   );
 }
