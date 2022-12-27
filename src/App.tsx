@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import { Navbar } from './components';
+import { CTA, Navbar } from './components';
 import Brand from './components/brand/brand.component';
-import { Features, Header, Possibility, WhatGPT3 } from './containers';
+import { Blog, Features, Header, Possibility, WhatGPT3 } from './containers';
 
 const App = () => {
   return (
@@ -15,6 +15,8 @@ const App = () => {
       <WhatGPT3 />
       <Features />
       <Possibility />
+      <CTA />
+      <Blog />
     </div>
   );
 }
